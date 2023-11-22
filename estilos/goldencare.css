@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin: 0px auto;
+}
+
+#menu {
+    width: 100%;
+    background-color: rgb(64, 112, 244);
+    overflow: hidden;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+
+nav ul li {
+    float: left;
+    margin: auto 120px;
+    list-style: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Molendra', sans-serif;
+
+    font-size: 18px;
+
+
+}
+
+nav ul li a:hover {
+    border-bottom: 5px solid rgb(0, 0, 0);
+    border-radius: 3px;
+
+
+
+}
+
+
+#banner {
+    background-image: url(/imagenes/banner.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    position: relative;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+
+}
+
+.eltra {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#banner::after {
+    content: '';
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+#t_uno {
+    color: white;
+
+    padding: 40px 20px 0px 40px;
+    font-size: 30px;
+    font-family: 'Donut Days', sans-serif;
+    font-weight: bold;
+}
+
+#t_dos {
+    color: rgb(64, 112, 244);
+
+    padding: 0px 20px 0px 40px;
+    font-size: 50px;
+    font-family: 'Donut Days', sans-serif;
+    font-weight: bold;
+}
+
+#cont_gen {
+    background-color: white;
+    width: 100%;
+    height: 1400px;
+    overflow: hidden;
+
+}
+
+
+
+h2 {
+    text-transform: uppercase;
+
+
+}
+
+p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.t_con {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Molendra', sans-serif;
+}
+
+#biografia {
+
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    background-color: white;
+
+}
+
+#spa {
+
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(64, 112, 244);
+    padding-right: 60px;
+
+
+
+
+}
+
+#medis {
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+
+
+}
+
+
+
+
+#img1 {
+
+    border-radius: 2%;
+    height: 300px;
+    border: solid 5px blue;
+    margin-right: 100px;
+}
+
+#img2 {
+
+    border-radius: 2%;
+    height: 300px;
+    border: solid 5px rgb(255, 255, 255);
+    margin-left: 100px;
+
+
+}
+
+#img3 {
+
+    border-radius: 2%;
+    height: 300px;
+    border: solid 5px blue;
+    margin-right: 100px;
+
+
+}
+
+#texto1 {
+    float: left;
+    width: 55%;
+    font-family: 'Donut Days', sans-serif;
+}
+
+#texto2 {
+    float: right;
+    width: 55%;
+    font-family: 'Donut Days', sans-serif;
+}
+
+#texto3 {
+    float: left;
+    width: 55%;
+    font-family: 'Donut Days', sans-serif;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 400px;
+}
+
+.caja1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caja1 img {
+    float: left;
+
+}
+
+.nombres {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.caja1 h2 {
+    margin: 0px 7px;
+}
+
+.contacto {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.contacto2 {
+    float: right;
+
+}
+
+.contacto p {
+    margin: 20px;
+    color: white;
+
+}
+
+.icons {
+
+    height: 150px;
+    width: 100%;
+    align-items: center;
+
+
+
+
+}
+
+.icons nav ul {
+    margin-left: 160px;
+
+}
+
+.icons nav ul li {
+
+
+    margin: 0;
+    padding: 0;
+    margin-right: 8px;
+
+
+
+}
+
+#cont_gen {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
